@@ -9,7 +9,7 @@ Route::get('/optimize',function(){
 
 Auth::routes();
 
-Route::get('about', 'PageController@about');
+Route::get('about.html', 'PageController@about');
 
 Route::get('blog', 'BlogController@index');
 Route::get('blog/{slug}', 'BlogController@show');
