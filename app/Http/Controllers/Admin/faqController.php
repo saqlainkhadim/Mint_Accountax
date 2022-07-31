@@ -24,7 +24,7 @@ class faqController extends Controller
       $resources =Resource::all();
       $careers = Career::all();
       $sectors = Sector::all();
-      return view('admin.faq.create')->with(compact('faq','services','resources','careers','sectors'));
+      return view('admin.faq.create')->with(compact('services','resources','careers','sectors'));
   } 
   public function store(Request $request)
   {
