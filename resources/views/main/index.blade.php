@@ -195,7 +195,8 @@
             <blockquote class="quote quote-boxed">
             <div class="quote-meta">
                <ul class="list-icons">
-                   @for($i=$review->rating;$i<=5;$i++)
+                   <?php $rating = (int) $review->rating; ?>
+                   @for($i= 0; $i < $rating;$i++)
                   <li>
                      <div class="icon mdi mdi-star"></div>
                   </li>
