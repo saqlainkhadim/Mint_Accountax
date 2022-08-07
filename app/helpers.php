@@ -94,7 +94,8 @@ function Services_keywords($route=''){
 
 }
 
-function FAQs($route=''){
+
+function FAQ($route=''){
     $str='';
     $key=0;
     $route_arr = explode("/", $route, 10);
@@ -134,7 +135,7 @@ function FAQs($route=''){
                               ' . $show->Answer . '
                             </div>
                           </div>
-                        </div>
+                        
                       </div>
                     </div>';
                 }
@@ -183,7 +184,6 @@ function FAQs($route=''){
                               ' . $show->Answer . '
                             </div>
                           </div>
-                        </div>
                       </div>
                     </div>';
                 }
