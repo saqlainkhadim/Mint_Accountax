@@ -36,7 +36,7 @@
 
 
 
-            {!! FAQs(url()->current()) !!}
+            {!! FAQ(url()->current()) !!}
       <footer class="section footer-2">
         <div class="container">
           <div class="row row-40">
